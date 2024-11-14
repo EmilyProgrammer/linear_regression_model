@@ -47,4 +47,6 @@ adj_r2 = 1 -(1 - r2) * (n-1)/(n - k- 1)
 print(adj_r2)
 
 #Scatter plot of Actual vs. Prediction values
-plt.figure(figsize = (8,6))
+plt.figure(figsize = (8,6)) #plot actual vs. predicted
+plt.scatter(y_test, y_pred, alpha = 0.5)
+plt.plot([min(y_pred, max(y_pred))],[min(y_test), max(y_test)], color ='red', line width = 2)

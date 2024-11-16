@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc7f2696-2d73-4623-b960-591a7fd8259a" name="Changes" comment="Initial commit with the app.">
+    <list default="true" id="fc7f2696-2d73-4623-b960-591a7fd8259a" name="Changes" comment="Initial commit with  readme.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linear_regression_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regression_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,13 +107,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731520680960</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit with  readme.md">
+      <option name="closed" value="true" />
+      <created>1731618185902</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731618185911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is how far I have gone. About to plot the scatter diagram." />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial commit with the app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with the app." />
+    <MESSAGE value="Initial commit with  readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit with  readme.md" />
   </component>
 </project>

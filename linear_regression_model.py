@@ -49,4 +49,12 @@ print(adj_r2)
 #Scatter plot of Actual vs. Prediction values
 plt.figure(figsize = (8,6)) #plot actual vs. predicted
 plt.scatter(y_test, y_pred, alpha = 0.5)
-plt.plot([min(y_pred, max(y_pred))],[min(y_test), max(y_test)], color ='red', line width = 2)
+plt.plot([min(y_test), max(y_test)], [min(y_pred), max(y_pred)], color ='red', linewidth = 2)
+plt.xlabel('Actual Values')
+plt.ylabel('Predicted values')
+plt.title('Actual vs. Predicted Values')
+plt.show()
+
+#save the trained model to a .pkl (.pkl was not working, so I used .jlib)
+joblib.dump(model, 'model/model.jlib')
+

@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
@@ -53,8 +52,8 @@ plt.plot([min(y_test), max(y_test)], [min(y_pred), max(y_pred)], color ='red', l
 plt.xlabel('Actual Values')
 plt.ylabel('Predicted values')
 plt.title('Actual vs. Predicted Values')
-plt.show()
+#plt.show()
 
 #save the trained model to a .pkl (.pkl was not working, so I used .jlib)
-joblib.dump(model, 'model/model.jlib')
+joblib.dump(model, 'model/model.pkl')
 

@@ -16,4 +16,4 @@ CO_2 Emission Prediction using Sklearn, FastAPI, and Streamlit
 
 ## Description
 
-This app provide an API and Streamlit to predict the CO2 Emission of a car  
+This app provide an API and Streamlit to predict the CO_2 Emission of a car  

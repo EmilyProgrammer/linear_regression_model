@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 
 #Load the saved model
-model = joblib.load('model/model.jlib')
+model = joblib.load('model/model.pkl')
 
 # Instantiate our FastAPI
 app = FastAPI()

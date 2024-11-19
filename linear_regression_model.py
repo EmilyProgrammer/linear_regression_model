@@ -55,5 +55,5 @@ plt.title('Actual vs. Predicted Values')
 #plt.show()
 
 #save the trained model to a .pkl (.pkl was not working, so I used .jlib)
-joblib.dump(model, 'model/model.pkl')
+joblib.dump(model, 'model/model.jlib')
 
